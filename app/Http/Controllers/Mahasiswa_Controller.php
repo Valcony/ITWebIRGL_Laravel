@@ -37,7 +37,7 @@ class Mahasiswa_Controller extends Controller
         if(isset($r->id))
         {
             $mahasiswa = Mahasiswa::find($r->id);
-            $route = 'mahasiswa';
+            $route = 'mahasiswa.index';
         }
         else
         {

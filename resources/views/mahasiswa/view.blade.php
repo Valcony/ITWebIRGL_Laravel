@@ -4,7 +4,7 @@
 {{-- Section content -> yield content base.blade --}}
 @section('content')
     <div class="flex flex-wrap items-center justify-center w-full h-screen">
-        <div class="relative rounded-sm overflow-hidden bg-white w-full lg:w-2/3 xl:w-1/2 mt-11 h-3/4">
+        <div class="relative rounded-sm overflow-hidden bg-white w-full lg:w-2/3 xl:w-1/2 mt-11 h-3/4 overflow-y-auto">
         <div class="flex justify-start p-3 pt-2">
         <a href="{{ route('mahasiswa.index') }}"><button type="button" type="submit" class="inline-block rounded border-2 border-neutral-800 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-800 transition duration-150 ease-in-out hover:border-neutral-700 hover:bg-neutral-100 hover:text-neutral-100 focus:border-neutral-700 focus:bg-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-800 active:text-neutral-800 motion-reduce:transition-none dark:text-neutral-600 dark:hover:bg-neutral-900 dark:focus:bg-neutral-900">Back</button></a>
         </div>
