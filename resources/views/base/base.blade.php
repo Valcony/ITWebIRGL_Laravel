@@ -23,8 +23,7 @@
         </div>
         <div>
             @yield('content')
-        </div>
-        @include('include.footer')
     </div>
+    @include('include.footer')
 </body>
 </html>

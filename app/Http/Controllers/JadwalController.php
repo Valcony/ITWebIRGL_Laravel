@@ -10,11 +10,7 @@ class JadwalController extends Controller
     {
         // Get the current subdirectory
         $subdirectory = request()->segment(1); // Get the first segment of the URL
-
-        // Set the default title
         $title = "Jadwal";
-
-        // Change the title based on the subdirectory
         if ($subdirectory === 'jadwal') {
             $title = "Jadwal Kuliah";
         } elseif ($subdirectory === 'another_subdirectory') {

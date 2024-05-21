@@ -11,11 +11,13 @@
         <ul id="navbarLinks" class="md:hidden absolute top-full left-0 bg-gray-900 w-full text-center py-4 hidden">
             <li><a class="block px-4 py-2 hover:text-gray-200" href="/home">Home</a></li>
             <li><a class="block px-4 py-2 hover:text-gray-200" href="/jadwal">Jadwal</a></li>
+            <li><a class="hover:text-gray-200" href="/mahasiswa">Menu</a></li>
         </ul>
         <!-- For larger screens, display the links -->
         <ul class="hidden md:flex font-semibold font-heading space-x-12">
             <li><a class="hover:text-gray-200" href="/home">Home</a></li>
             <li><a class="hover:text-gray-200" href="/jadwal">Jadwal</a></li>
+            <li><a class="hover:text-gray-200" href="/mahasiswa">Menu</a></li>
         </ul>
     </div>
 </nav>
